@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with BS5</title>
+    <link rel="stylesheet" href="../Bootstrap main/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @media(min-width: 768px) and (max-width:992px){
+            header img{
+                width: 100%;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black navbar-expand-lg">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="./Logo.png" alt="logo" height="60px"></a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    data-bs-controls="navbarNav"
+                    arial-expanded="false"
+                    aria-label="Toggle Navigation"
+                
+                    
+                    > <span class="bi bi-menu-up">MENU</span></button>
+ 
+        <!-- <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav justify-content-center flex-grow-1   gap-lg-5">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Services</a>
+
+            </div>
+            <button class="btn btn-outline-warning sign-up-btn mx-auto" type="button">Sign Up</button>
+
+        </div> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav justify-content-center flex-grow-1 gap-lg-5">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#product">Product</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#services">Services</a>
+            </div>
+            <button class="btn btn-outline-warning sign-up-btn mx-auto" type="button">Sign Up</button>
+
+        </div>
+        </div>
+
+        </div>
+    </div>
+    </nav>
+    <!-- Header -->
+    <header class="header bg-black text-light py-5 px-0" id="home">
+        <div class="container">
+        <div class="row align-items-center gap-5 gap-lg-0">
+            <div class="col-lg-8">
+            <h1 class="display-4 fw-bolder mb-5 text-center text-md-start">Welcome to <span class="text-danger">Our Website</span></h1>
+            <p class="lead fw-normal mb-5 text-center text-mb-start lh-lg">Your success starts here. Explore our services and get started today! We offer a wide range of solutions tailored to meet your needs, weather your looking for web developer, digital marketing, or consulting services. Our team of experts  Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum debitis   </p>
+
+            <div class="btn-group d-flex justify-content-start">
+                <button class="btn btn-outline-danger btn-lg p-4">Get Started</button>
+
+                <button class="btn btn-outline-warning btn-lg p-4">Our Project</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img src="https://images.pexels.com/photos/7583935/pexels-photo-7583935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="images" height="480px" >
+        </div>
+    </div>
+</div>
+    </header>
+    <!-- <br> <br> -->
+
+     <!-- about section -->
+     <section class="bg-black py-5 px-0" id="about">
+        <div class="container">
+            <div class="row align-content-center gap-5 gap-lg-0">
+                <div class="col-6">
+                    <img src="https://images.pexels.com/photos/8199610/pexels-photo-8199610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 " alt="" height="350px">
+                </div>
+
+                <div class="col-6 ">
+                    <h2 class="display-4 text-white  ">About Our Company</h2>
+                    <p class="text-secondary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis ea adipisci inventore ipsum fugiat velit dolorem repellendus fugit incidunt eos illum molestias, facere obcaecati beatae accusamus, quisquam ab iste?</p>
+
+                    <button class="btn btn-outline-primary btn-sm p-4 ">Enroll Now!</button>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      
+
+    <!--product section -->
+     <section class="  bg-black " id="product">
+        <div class="row  justify-content-evenly">
+        <div class="card col-lg-3 col-md-6 col-sm-6" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/5380792/pexels-photo-5380792.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-bold">Cyber Security</p>
+              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eos!</p>
+            </div>
+        </div>
+
+          <div class="card col-lg-3 col-md-6 col-sm-6" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text fw-bold">Web Development</p>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eos!</p>
+            </div>
+          </div>
+
+          <div class="card  col-lg-3 col-md-6 col-sm-6" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text fw-bold">SEO</p>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eos!</p>
+            </div>
+          </div>
+
+          <div class="card  col-lg-3 col-md-6 col-sm-6" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/6483582/pexels-photo-6483582.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text fw-bold">Digital Marketing</p>
+                <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eos!</p>
+            </div>
+          </div>
+
+        </div>
+     </section>
+
+     <!-- contact section -->
+
+     <section class="bg-black " id="contact">
+        <div class="container w-50 text-white bg-black py-5">
+            <p class="display-5 text-center">Contact</p>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+        </div>
+      </section>
+      
+
+      <!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="bg-black text-white pt-5 pb-4">
+    <div class="container">
+        <!-- Row 1: Company Information -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="text-uppercase fw-bold">Our Company</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit corporis ea adipisci inventore. Join us to create your future with our digital solutions.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="text-uppercase fw-bold">Contact Info</h5>
+                <ul class="list-unstyled">
+                    <li>Email: support@yourwebsite.com</li>
+                    <li>Phone: +123-456-7890</li>
+                    <li>Address: 123 Digital Street, City, Country</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 text-center">
+                <h5 class="text-uppercase fw-bold">Follow Us</h5>
+                <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <!-- Row 2: Quick Links -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#home">Home</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#about">About</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#product">Product</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#contact">Contact</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#services">Services</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <!-- Row 3: Copyright -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="mb-0">© 2025 Your Website. All Rights Reserved. Designed by Your Team.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+
+
+
+
+    <script src="../Bootstrap main/js/bootstrap.bundle.js"></script>
+</body>
+</html>
